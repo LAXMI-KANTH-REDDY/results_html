@@ -4,17 +4,17 @@ body {
     background: linear-gradient(to right, #e0d1bd, #00809D);
 }
 
-.admin-heading {
+.student-heading {
     text-align: center;
-    background-color: #005d5d;
+    background-color: rgb(9, 86, 86);
     font-size: 40px;
-    color: #d2e220;
+    color: rgb(188, 207, 80);
     font-style: italic;
     font-weight: bold;
     padding: 12px;
 }
 
-.admin_div-style {
+.student_div-style {
     max-width: 700px;
     margin: 50px auto;
     padding: 25px;
@@ -24,22 +24,22 @@ body {
     text-align: center;
 }
 
-.admin_img-fac {
+.student_img-fac {
     width: 180px;
     height: 180px;
-    border-radius: 50%;
+    border-radius: 1000px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
     margin-bottom: 25px;
 }
 
-.admin-text {
+.student-text {
     font-size: 18px;
     color: #fff;
     margin-bottom: 30px;
     line-height: 1.5;
 }
 
-.opt-sty ul {
+.stu_opt-sty ul {
     list-style: none;
     padding: 0;
     display: flex;
@@ -48,7 +48,7 @@ body {
     margin-bottom: 30px;
 }
 
-.opt-sty li {
+.stu_opt-sty li {
     background: linear-gradient(to left, #1d94de, #60693a);
     color: #fff;
     font-size: 16px;
@@ -58,20 +58,20 @@ body {
     position: relative;
 }
 
-.opt-sty li::before {
+.stu_opt-sty li::before {
     content: '✔';
     margin-right: 8px;
     color: lime;
 }
 
-.admin-details-heading {
+.student-details-heading {
     color: #f2f728;
     font-size: 30px;
     font-style: italic;
     margin-bottom: 15px;
 }
 
-.admin-details {
+.student-details {
     font-size: 20px;
     background: #d9dcd6;
     margin: 0 auto;
@@ -80,11 +80,11 @@ body {
     box-shadow: 4px 6px 0px rgba(0, 0, 0, 0.7);
 }
 
-.admin-details td {
+.student-details td {
     padding: 8px 20px;
 }
 
-.admin-details a {
+.student-details a {
     color: blue;
     text-decoration: underline;
 }
