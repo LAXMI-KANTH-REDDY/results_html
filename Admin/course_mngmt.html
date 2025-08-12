@@ -3,9 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin/course_mngmt.html</title>
+    <title>Admin - Course Management</title>
+    <link rel="stylesheet" href="STYLES_ADMIN/admin.css">
 </head>
-<body>
-    
+<body class="cm-admin-body">
+
+    <header class="cm-admin-header">
+        <h1 class="cm-admin-title">Course Management</h1>
+        <p class="cm-admin-subtitle">Admin Panel - Manage All University Courses</p>
+    </header>
+
+    <section class="cm-admin-form-section">
+        <h2 class="cm-admin-section-title">Add / Edit Course</h2>
+        <form class="cm-admin-form">
+            <label>Course Code:</label>
+            <input type="text" placeholder="e.g., CSE201" required>
+
+            <label>Course Name:</label>
+            <input type="text" placeholder="e.g., Web Technologies" required>
+
+            <label>Faculty:</label>
+            <input type="text" placeholder="e.g., Dr. Priya Sharma" required>
+
+            <label>Credits:</label>
+            <input type="number" min="1" max="6" required>
+
+            <label>Semester:</label>
+            <select>
+                <option value="">Select Semester</option>
+                <option>1</option><option>2</option><option>3</option>
+                <option>4</option><option>5</option><option>6</option>
+                <option>7</option><option>8</option>
+            </select>
+
+            <button type="submit" class="cm-admin-btn cm-btn-add">Add Course</button>
+            <button type="reset" class="cm-admin-btn cm-btn-reset">Clear</button>
+        </form>
+    </section>
+
+    <section class="cm-admin-table-section">
+        <h2 class="cm-admin-section-title">Existing Courses</h2>
+        <table class="cm-admin-table">
+            <thead>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Name</th>
+                    <th>Faculty</th>
+                    <th>Credits</th>
+                    <th>Semester</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CSE102</td>
+                    <td>Data Structures</td>
+                    <td>Dr. Anjali Sharma</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>
+                        <button class="cm-action-btn cm-edit">Edit</button>
+                        <button class="cm-action-btn cm-delete">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>CSE103</td>
+                    <td>Computer Networks</td>
+                    <td>Prof. Rajesh Kumar</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>
+                        <button class="cm-action-btn cm-edit">Edit</button>
+                        <button class="cm-action-btn cm-delete">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
 </body>
 </html>

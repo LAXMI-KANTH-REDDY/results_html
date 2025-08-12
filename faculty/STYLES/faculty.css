@@ -89,3 +89,237 @@ transition: transform 1.3s ease,box-shadow 0.3s ease;
      flex-direction: column;
     align-items: center;
 }
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    background: rgb(29, 214, 220);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #864040;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border: 5px solid rgb(14, 61, 86);
+    margin-bottom: 15px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3b8ce8;
+    color: white;
+}
+
+input[type="number"] {
+    width: 80px;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b7ac2;
+}
+.fr-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.fr-header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.fr-title {
+    margin: 0;
+    font-size: 28px;
+}
+
+.fr-subtitle {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.fr-info {
+    background: rgb(94, 157, 208);
+    padding: 20px;
+    margin: 20px auto;
+    width: 85%;
+   text-align: center;
+   color: #0c0f02;
+   font-size: 20px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.fr-section-title {
+    margin: 10px 0;
+    color: #0077b6;
+    font-size: 20px;
+}
+
+.fr-table-section {
+    background: rgb(18, 173, 187);
+    padding: 20px;
+    margin: 20px auto;
+    width: 85%;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.fr-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.fr-table th, .fr-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.fr-table th {
+    background-color: #0077b6;
+    color: rgb(176, 213, 217);
+    text-transform: uppercase;
+}
+
+.fr-table tbody tr:nth-child(even) {
+    background-color: #add7dd;
+}
+
+.fr-footer {
+    text-align: center;
+    padding: 15px;
+    background: #00394d;
+    color: white;
+    margin-top: 20px;
+}
+
+.fvr-body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.fvr-header {
+    background-color: #1b8ed5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.fvr-title {
+    margin: 0;
+    font-size: 28px;
+}
+
+.fvr-subtitle {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.fvr-course-info {
+    background: rgb(29, 196, 205);
+    padding: 15px 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+    width: 85%;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.fvr-section-title {
+    margin-bottom: 10px;
+    color: #a2c1d5;
+    font-size: 20px;
+}
+
+.fvr-table-section {
+    background: rgb(38, 159, 228);
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 15px;
+    width: 85%;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.fvr-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.fvr-table th, .fvr-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.fvr-table th {
+    background-color: #1b4965;
+    color: white;
+    text-transform: uppercase;
+}
+
+.fvr-table tbody tr:nth-child(even) {
+    background-color: #46cde5;
+}
+
+.fvr-footer {
+    text-align: center;
+    padding: 15px;
+    background: #13293d;
+    color: white;
+    margin-top: 20px;
+}

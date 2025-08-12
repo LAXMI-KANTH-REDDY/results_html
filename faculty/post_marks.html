@@ -3,11 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>faculty/post_marks.html</title>
+    <title>Faculty Marks Posting</title>
+    <link rel="stylesheet" href="STYLES/faculty.css">
 </head>
 <body>
-    <h1>
-        FACULTY DASHBOARD
-    </h1>
+    <div class="container">
+        <h1>Post Student Marks</h1>
+
+        <form action="#" method="post">
+        
+            <div class="form-group">
+                 <label for="facultyName">Select Faculty:</label>
+                <select id="facultyName" name="facultyName" required>
+                    <option value="">-- Select Faculty --</option>
+                    <option value="Dr. Anjali Sharma">Dr. Anjali Sharma</option>
+                    <option value="Prof. Karan Mehta">Prof. Karan Mehta</option>
+                    <option value="Prof. Rajiv Mehta">Prof. Rajiv Mehta</option>
+                    <option value="Dr. Neha Kapoor">Dr. Neha Kapoor</option>
+                    <option value="Prof. Sandeep Verma">Prof. Sandeep Verma</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="studentName">Select Student:</label>
+                <select id="studentName" name="studentName" required>
+                    <option value="">-- Select Student --</option>
+                    <option value="Aarav Kumar">Aarav Kumar (21CSE001)</option>
+                    <option value="Priya Sharma">Priya Sharma (21ECE002)</option>
+                    <option value="Rahul Verma">Rahul Verma (21MTH003)</option>
+                    <option value="Sneha Kapoor">Sneha Kapoor (21PHY005)</option>
+                </select>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Course Name</th>
+                        <th>Marks Obtained</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CSE101</td>
+                        <td>Introduction to Programming</td>
+                        <td><input type="number" name="marksCSE101" min="0" max="100" required></td>
+                    </tr>
+                    <tr>
+                        <td>MTH201</td>
+                        <td>Linear Algebra</td>
+                        <td><input type="number" name="marksMTH201" min="0" max="100" required></td>
+                    </tr>
+                    <tr>
+                        <td>PHY301</td>
+                        <td>Quantum Mechanics</td>
+                        <td><input type="number" name="marksPHY301" min="0" max="100" required></td>
+                    </tr>
+                    <tr>
+                        <td>ECE205</td>
+                        <td>Digital Electronics</td>
+                        <td><input type="number" name="marksECE205" min="0" max="100" required></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="form-group">
+                <button type="submit">Submit Marks</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+   background: linear-gradient(to right, #e0d1bd, #00809D);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #3b9ade;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    text-align: center;
+    text-decoration-color:black ;
+    color: #0a0d03;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #067e30;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.register-btn {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #9ea9ac;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.register-btn:hover {
+    background-color: #022844;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #5faab7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #055984;
+}
+
+th {
+    background-color: #0a404a;
+}
+
+.edit-button {
+    background-color: #457794;
+    color: rgb(18, 1, 1);
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.delete-button {
+    background-color: #823038;
+    color: rgb(17, 5, 5);
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #218838;
+    border-color: aliceblue;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+    border-color: aliceblue;
+}

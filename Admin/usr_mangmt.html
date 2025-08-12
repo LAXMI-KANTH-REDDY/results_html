@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin/usr_mangmt.html</title>
+    <title>User Management</title>
+    <link rel="stylesheet" href="STYLES_ADMIN/user_ngmt.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h2>User Management</h2>
+        <form class="form">
+            <label for="name">NAME</label>
+            <input type="text" id="name" placeholder="Enter name">
+
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" placeholder="Enter email">
+
+            <label for="role">ROLE</label>
+            <select id="role">
+                <option>Admin</option>
+                <option>User</option>
+            </select>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password">
+
+            <button type="submit" class="register-btn">Register</button>
+        </form>
+
+        <h3>User Information</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>ramu</td>
+                    <td>ramu@domain.com</td>
+                    <td>Admin</td>
+                    <td>
+                        <button class="edit-button">Edit</button>
+                        <button class="delete-button">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>radha</td>
+                    <td>radha@domain.com</td>
+                    <td>User</td>
+                    <td>
+                        <button class="edit-button">Edit</button>
+                        <button class="delete-button">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
-</html> 
+</html>
