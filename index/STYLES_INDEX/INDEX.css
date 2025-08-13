@@ -9,9 +9,9 @@
     }
     u{
         text-decoration-line: underline;
-       text-decoration-color: rgb(65, 7, 136);
+       text-decoration-color: rgb(3, 144, 144);
         text-decoration-thickness: 5px;
-          box-shadow: 0 12px 22px rgba(0,0,0,0.1);
+          box-shadow: 5px 12px 22px rgba(0,0,0,0.1);
 
     }
 
@@ -45,8 +45,9 @@
     }
 
     .grid-item:hover {
-      transform: translateY(-25px);
-      box-shadow: 0 12px 26px rgba(0,0,0,0.2);
+      transform: translateY(-2px);
+      border: 2.2px solid #4bcee9;
+      box-shadow: 1px 32px 32px rgba(7, 1, 1, 0.2);
     }
 
 
